@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.head {
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    font-size: 49px;
+    text-align: center;
+    background-color: #4d83b6;
+    border-radius: 5px;
+}
+
+
+
+
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+.box {
+    padding: 10px;
+}
+
+
+
+
+.contacts {
+    border-radius: 5px;
+    position: sticky;
+    top: 2%;
+    background-color: #4d83b6;
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.contactNum {
+    float: right;
+} 
+.contactNum::after { 
+    content:'\1F4DE'' ''\2709';
+    conte;
+    color: black;
+
+} 
+
+
+
+
+    ul {
+        list-style: none;
+    }
+     
+    ul li:before {
+       
+        content: '\1F464';
+        
+    
+    }
+    li{
+        
+        border-bottom: 0.5px solid rgb(46, 29, 29);
+    }
+}
