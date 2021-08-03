@@ -1,0 +1,165 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: fixed; */
+  background-color: orange;
+}
+nav h1{
+  color:white;
+  font-size: 50px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content:flex-end;
+  width: 400px;
+  margin-right: 0px;
+}
+nav ul li:hover{
+  
+  background-color: rgb(245, 159, 0);
+  transition:1s;
+  border-radius: 10%;;
+}
+
+nav a{
+  text-decoration: none;
+  color:white;
+  font-size: 1.0rem;
+  padding: 20px 10px;
+}
+
+nav li{
+  padding: 10px 5px;
+}
+
+@media screen and (max-width:620px){
+  nav,ul{
+      flex-direction: column;
+      align-items: center;
+  }
+}
+#slider {
+	overflow: hidden;
+  width:75vw;
+  height:70vh;
+  margin:20px auto;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+main h1{
+text-align: center;  
+
+}
+section{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+ 
+  margin:30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#container figure{
+  width: 300px;
+  border:1px solid #ccc;
+  margin:20px;
+  text-align: center;
+  box-shadow: 0px 0px 3px rgb(104,104,104);
+  transition: 100ms;
+}
+
+#container figure:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+#container figure img{
+  height: 200px;
+  width: 100%;
+}
+
+figcaption button{
+  padding: 10px 20px;
+  margin:10px;
+  font-size: 16px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  background:none;
+}
+
+figcaption button:hover{
+  background: lightslategray;
+  color:white;
+  cursor: pointer;
+}
+
+figcaption p{
+  font-weight: 300;
+}
+
+#last{
+  width:100vw;
+  height:50px;
+  padding:20px;
+  align-content: center;
+  color:papayawhip
+  background-color: lightslategray;
+}
+footer{
+  width:100vw;
+  height:100px;
+  background-color: orange;
+  color:white;
+
+}
+footer h1{
+  text-align: center;
+}
