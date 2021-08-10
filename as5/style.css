@@ -1,0 +1,116 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #5bc39c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	width: 60%;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main section {
+	background-color: white;
+	width: 100%;
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 2rem;
+	font-weight: 590;
+}
+
+h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 590;
+	margin-bottom: 0.5rem;
+}
+
+#first {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#first ul {
+	display: flex;
+	gap: 5px;
+}
+
+#first ul li {
+	border: none;
+	font-size: 120%;
+	color: lightgray;
+}
+
+#second {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#second div {
+	margin-right: 1rem;
+}
+
+#second img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid lightslategray;
+}
+
+#second section {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+#second section button {
+	color: green;
+	border: 1px solid green;
+	width: 100px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	border: 1px solid lightgrey;
+	padding: 0.5rem;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+b > a {
+	color: black;
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		width: 80%;
+	}
+
+	#second {
+		flex-direction: column;
+	}
+}
